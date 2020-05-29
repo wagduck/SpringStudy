@@ -18,7 +18,7 @@ public class UserService {
     }
 
     public List<User> getAllUsers() {
-        return userDao.selectAllUsers();
+      return userDao.selectAllUsers();
     }
 
     public User getUserDetails(String userId) {
